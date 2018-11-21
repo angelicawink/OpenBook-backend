@@ -5,6 +5,9 @@ Rails.application.routes.draw do
         resources :moments
         resources :feelings
         resources :entries
+
+        post '/login', :to => 'users#verify'
+
         get '/users/:id/moments', to: 'users#moments'
         get '/users/:id/entries', to: 'users#entries'
       end

@@ -23,6 +23,16 @@ class Api::V1::UsersController < ApplicationController
     render json: @user.entries
   end
 
+  def verify
+    @user = User.find_by_username(params[:name])
+
+    if @user
+      render json: @user.id
+    else
+      render json: 'alert: wrong username'
+    end
+  end
+
   private
 
   def user_params
