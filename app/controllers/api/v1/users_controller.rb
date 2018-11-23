@@ -27,7 +27,7 @@ class Api::V1::UsersController < ApplicationController
     @user = User.find_by_username(params[:name])
 
     if @user
-      render json: @user.id
+      render json: @user
     else
       render json: 'alert: wrong username'
     end
