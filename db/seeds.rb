@@ -8,6 +8,8 @@
 
 
 User.create(username: "carowink91")
+User.create(username: "morganr287")
+
 
 Feeling.create(name: "absolutely horrible", rank: 1)
 Feeling.create(name: "terrible", rank: 2)
@@ -32,3 +34,7 @@ Entry.create(user_id: 1, content: "Feeling pissed at Claire, really wish she wou
 Entry.create(user_id: 1, content: "Really proud of the homework I got done today. Did my best!")
 Entry.create(user_id: 1, content: "Nervous about the meeting tomorrow. I always fumble my words and say something moronic. Have to keep it TOGETHER!!!!")
 Entry.create(user_id: 1, content: "Feeling optimistic about this Mexico trip. Honestly I've never been a good traveller, but I think Paul will make it fun.")
+
+Entry.create(user_id: 2, content: "I've been getting a lot of anxiety about talking to my boss. He's not very amenable to discussion and I feel like I'll just crumble and won't be able to deliver everything I've practiced.")
+Entry.create(user_id: 2, content: "Honestly feel like I'm gonna jump out a window if this truck beeping doesn't stop soon. It's been 3 days now and it's giving me anxiety.")
+Entry.create(user_id: 2, content: "Trying not to hate my sorority sisters, but Sara and Colleen are acting like childish dictators. It's pathetic and now I frnakly don't want to have anything to do with planning the dumb homecoming post-party on Saturday. So they can just deal.")
