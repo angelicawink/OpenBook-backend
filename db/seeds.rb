@@ -7,8 +7,10 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-User.create(username: "carowink91")
-User.create(username: "morganr287")
+User.create(username: "carowink91", password: "carowink")
+User.create(username: "morganr287", password: "morganr")
+User.create(username: "caw400", password: "caw")
+
 
 
 Feeling.create(name: "absolutely horrible", rank: 1)
