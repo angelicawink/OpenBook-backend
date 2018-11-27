@@ -7,7 +7,7 @@ Rails.application.routes.draw do
         resources :entries
 
         post '/login', :to => 'auth#create'
-
+        get '/home', :to => 'users#profile'
         get '/users/:id/moments', to: 'users#moments'
         get '/users/:id/entries', to: 'users#entries'
       end
