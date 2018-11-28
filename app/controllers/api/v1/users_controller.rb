@@ -27,7 +27,6 @@ class Api::V1::UsersController < ApplicationController
     end
   end
 
-
   def moments
     render json: @user.moments
   end
