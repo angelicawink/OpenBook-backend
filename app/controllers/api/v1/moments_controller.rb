@@ -25,7 +25,7 @@ class Api::V1::MomentsController < ApplicationController
   private
 
   def moment_params
-    params.require(:moment).permit(:user_id, :feeling_id)
+    params.require(:moment).permit(:user_id, :feeling_id, :setting_id)
   end
 
   def find_moment
