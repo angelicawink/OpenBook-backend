@@ -31,6 +31,7 @@ Setting.create(name: "exercising")
 Setting.create(name: "downtime")
 Setting.create(name: "socializing")
 Setting.create(name: "with family")
+Setting.create(name: "with significant other")
 Setting.create(name: "other")
 
 
@@ -39,7 +40,7 @@ Moment.create(user_id: 1, feeling_id: 8, setting_id: 3)
 Moment.create(user_id: 1, feeling_id: 8, setting_id: 6)
 Moment.create(user_id: 1, feeling_id: 8, setting_id: 5)
 Moment.create(user_id: 1, feeling_id: 7, setting_id: 6)
-Moment.create(user_id: 1, feeling_id: 8, setting_id: 7)
+Moment.create(user_id: 1, feeling_id: 8, setting_id: 8)
 
 Moment.create(user_id: 1, feeling_id: 5, setting_id: 1)
 Moment.create(user_id: 1, feeling_id: 1, setting_id: 1)
@@ -50,13 +51,17 @@ Moment.create(user_id: 1, feeling_id: 8, setting_id: 3)
 Moment.create(user_id: 1, feeling_id: 3, setting_id: 6)
 Moment.create(user_id: 1, feeling_id: 8, setting_id: 5)
 Moment.create(user_id: 1, feeling_id: 7, setting_id: 6)
-Moment.create(user_id: 1, feeling_id: 2, setting_id: 7)
+Moment.create(user_id: 1, feeling_id: 2, setting_id: 8)
 
-Moment.create(user_id: 1, feeling_id: 5, setting_id: 7)
+Moment.create(user_id: 1, feeling_id: 5, setting_id: 8)
 Moment.create(user_id: 1, feeling_id: 7, setting_id: 2)
 Moment.create(user_id: 1, feeling_id: 3, setting_id: 5)
 Moment.create(user_id: 1, feeling_id: 4, setting_id: 4)
 
+Moment.create(user_id: 1, feeling_id: 8, setting_id: 7)
+Moment.create(user_id: 1, feeling_id: 7, setting_id: 7)
+Moment.create(user_id: 1, feeling_id: 10, setting_id: 7)
+Moment.create(user_id: 1, feeling_id: 4, setting_id: 4)
 
 
 Moment.create(user_id: 2, feeling_id: 10, setting_id: 1)

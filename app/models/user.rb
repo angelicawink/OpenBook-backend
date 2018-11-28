@@ -78,6 +78,18 @@ class User < ApplicationRecord
     end
   end
 
+  def positive_with_significant_other
+    self.moments.select do |moment|
+      (moment.setting.name == "with significant other" && moment.feeling.rank >= 6)
+    end
+  end
+
+  def negative_with_significant_other
+    self.moments.select do |moment|
+      (moment.setting.name == "with significant other" && moment.feeling.rank < 6)
+    end
+  end
+
   def positive_other
     self.moments.select do |moment|
       (moment.setting.name == "other" && moment.feeling.rank >= 6)
@@ -89,5 +101,7 @@ class User < ApplicationRecord
       (moment.setting.name == "other" && moment.feeling.rank < 6)
     end
   end
+
+
 
 end
