@@ -5,6 +5,7 @@ class User < ApplicationRecord
   has_many :moments
   has_many :feelings, through: :moments
   has_many :settings, through: :moments
+  has_many :saved_entries
 
   def positive_at_work
     self.moments.select do |moment|

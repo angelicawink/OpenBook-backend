@@ -5,6 +5,7 @@ Rails.application.routes.draw do
         resources :moments
         resources :feelings
         resources :entries
+        resources :saved_entries
 
         post '/login', :to => 'auth#create'
         get '/home', :to => 'users#profile'

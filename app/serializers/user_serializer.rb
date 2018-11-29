@@ -3,4 +3,5 @@ class UserSerializer < ActiveModel::Serializer
   has_many :moments
   has_many :entries
   has_many :settings, through: :moments
+  has_many :saved_entries
 end
