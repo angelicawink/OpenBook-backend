@@ -1,5 +1,5 @@
 class Api::V1::SavedEntriesController < ApplicationController
-  before_action :find_saved_entry, only: [:show, :update]
+  before_action :find_saved_entry, only: [:show, :update, :destroy]
 
   def index
     @saved_entries = SavedEntry.all
@@ -20,6 +20,12 @@ class Api::V1::SavedEntriesController < ApplicationController
     else
       render json: { errors: @saved_entry.errors.full_messages }, status: :unprocessible_entity
     end
+  end
+
+  def destroy
+    @saved_entry.destroy
+
+    render json: @saved_entry
   end
 
   private
