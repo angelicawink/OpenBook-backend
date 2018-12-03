@@ -7,6 +7,7 @@ Rails.application.routes.draw do
         resources :entries
         resources :saved_entries
 
+        post '/signup', :to => 'users#create'
         post '/login', :to => 'auth#create'
         get '/home', :to => 'users#profile'
         get '/users/:id/moments', to: 'users#moments'
