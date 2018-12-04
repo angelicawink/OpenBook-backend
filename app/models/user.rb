@@ -3,6 +3,7 @@ class User < ApplicationRecord
   validates :username, uniqueness: true
 
   has_many :entries
+  has_many :poems
   has_many :moments
   has_many :feelings, through: :moments
   has_many :settings, through: :moments

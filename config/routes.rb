@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :poems
   namespace :api do
       namespace :v1 do
         resources :users
@@ -6,6 +7,7 @@ Rails.application.routes.draw do
         resources :feelings
         resources :entries
         resources :saved_entries
+        resources :poems
 
         post '/signup', :to => 'users#create'
         post '/login', :to => 'auth#create'
