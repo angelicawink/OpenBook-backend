@@ -17,6 +17,7 @@ class Api::V1::EntriesController < ApplicationController
   def update
     if @entry.save
       @entry.update(entry_params)
+      render json: @entry
     else
       render json: { errors: @entry.errors.full_messages }, status: :unprocessible_entity
     end

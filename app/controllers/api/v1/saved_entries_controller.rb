@@ -17,6 +17,7 @@ class Api::V1::SavedEntriesController < ApplicationController
   def update
     if @saved_entry.save
       @saved_entry.update(saved_entry_params)
+      render json: @saved_entry
     else
       render json: { errors: @saved_entry.errors.full_messages }, status: :unprocessible_entity
     end
