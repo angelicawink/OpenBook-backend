@@ -94,15 +94,15 @@
 # SavedEntry.create(user_id: 1, entry_id: 16, title: "Inspiring")
 # SavedEntry.create(user_id: 1, entry_id: 15, title: "Sweet")
 # SavedEntry.create(user_id: 1, entry_id: 13, title: "It's not just me <3")
+#
 
-
-Poem.create(user_id: 1, title: "Begging For Death", content: "When will the darkness swallow me whole?
+Poem.create(user_id: 2, title: "Begging For Death", content: "When will the darkness swallow me whole?
 I am begging,
 For my end to come;
 I want nothing more in life,
 Than to just be done with it.")
 
-Poem.create(user_id: 1, title: "Close My Eyes Forever", content: "I don't wish to live anymore,
+Poem.create(user_id: 2, title: "Close My Eyes Forever", content: "I don't wish to live anymore,
 For every day holds depression,
 And memories,
 That will haunt me forever;
@@ -110,7 +110,7 @@ I can't close my eyes,
 Without picturing the love of my life,
 In his arms.")
 
-Poem.create(user_id: 1, title: "I'm A Failure", content: "Now im here because of you
+Poem.create(user_id: 2, title: "I'm A Failure", content: "Now im here because of you
 with tears and scars
 most of all the pain
 watch me as I drown in deep sorrow
@@ -123,16 +123,16 @@ why cant you see this for once?
 your right by the way
 im a failure")
 
-Poem.create(user_id: 1, title: "After I'm Dead", content: "I don't care what happens,
+Poem.create(user_id: 2, title: "After I'm Dead", content: "I don't care what happens,
 To me after I am dead,
 Nothing can be worse,
 Than the miserable life,
 That I have to call mine,
 Till my last very breath. ")
 
-Poem.create(user_id: 1, title: "Sorry For Existing", content: "I'm sorry for being weak. I'm sorry for existing. I'm sorry for loving you. I'm sorry for you having to love me. I'm sorry about the struggles I put you through. But I'm most sorry for, is wasting your time.")
+Poem.create(user_id: 2, title: "Sorry For Existing", content: "I'm sorry for being weak. I'm sorry for existing. I'm sorry for loving you. I'm sorry for you having to love me. I'm sorry about the struggles I put you through. But I'm most sorry for, is wasting your time.")
 
-Poem.create(user_id: 1, title: "It Is What It Is", content: "
+Poem.create(user_id: 2, title: "It Is What It Is", content: "
 it is what it is
 it is what it's meant to be
 nothing to do
@@ -142,12 +142,12 @@ seeking love
 wandered alone
 slowly walking toward her end")
 
-Poem.create(user_id: 1, title: "Lost", content: "Sometimes in life
+Poem.create(user_id: 2, title: "Lost", content: "Sometimes in life
 You feel like you're lost
 Sometimes in life
 You feel like you did the most")
 
-Poem.create(user_id: 1, title: "Never Laugh Again", content: "She smells like the sands of time
+Poem.create(user_id: 2, title: "Never Laugh Again", content: "She smells like the sands of time
 And is funny without ever being mean
 I know that she's a dime
 
@@ -159,7 +159,7 @@ I create a certain kind of seeing
 
 Maybe I should care")
 
-Poem.create(user_id: 1, title: "Nothing Lasts Except Pain", content: "The sun is setting, the night has come
+Poem.create(user_id: 2, title: "Nothing Lasts Except Pain", content: "The sun is setting, the night has come
 The sadness, pain and suffering,
 my demons once again arise
 to torment me at night.
